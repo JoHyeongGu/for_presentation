@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
+import 'package:gif_view/gif_view.dart';
+
 class FirebaseMainPage extends StatefulWidget {
   const FirebaseMainPage({super.key});
 
@@ -169,7 +171,7 @@ class _BackWalkingState extends State<BackWalking> {
             child: Transform(
               transform:
                   left < 0 ? Matrix4.rotationY(math.pi) : Matrix4.rotationY(0),
-              child: Image.asset(
+              child: GifView.asset(
                 "assets/walking_dog.gif",
                 width: MediaQuery.of(context).size.width,
               ),
