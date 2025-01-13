@@ -126,7 +126,26 @@ class _BackWalkingState extends State<BackWalking> {
         top = math.Random().nextDouble() * 200 - 100;
         left = left > 0 ? -1000 : 2000;
       });
-      await Future.delayed(Duration(seconds: 10));
+      await Future.delayed(Duration(seconds: 1));
+      setState(() {});
+      await Future.delayed(Duration(seconds: 1));
+      setState(() {});
+      await Future.delayed(Duration(seconds: 1));
+      setState(() {});
+      await Future.delayed(Duration(seconds: 1));
+      setState(() {});
+      await Future.delayed(Duration(seconds: 1));
+      setState(() {});
+      await Future.delayed(Duration(seconds: 1));
+      setState(() {});
+      await Future.delayed(Duration(seconds: 1));
+      setState(() {});
+      await Future.delayed(Duration(seconds: 1));
+      setState(() {});
+      await Future.delayed(Duration(seconds: 1));
+      setState(() {});
+      await Future.delayed(Duration(seconds: 1));
+      setState(() {});
     }
   }
 
