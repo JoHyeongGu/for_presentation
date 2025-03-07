@@ -14,6 +14,7 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   gif_view: ^1.0.0
+  url_launcher: ^6.3.1
 
 dev_dependencies:
   flutter_test:
@@ -28,12 +29,12 @@ flutter:
     - assets/
 
   fonts:
-    - family: apple
+    - family: yangjin
       fonts:
-        - asset: assets/fonts/Mungyeong-Gamhong-Apple.ttf
-    - family: pen
+        - asset: assets/fonts/YangJin.otf
+    - family: chosun
       fonts:
-        - asset: assets/fonts/pen_Regular.ttf
+        - asset: assets/fonts/ChosunCentennial.ttf
   #      - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

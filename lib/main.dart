@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:for_presentation/Page/ContentWidget.dart';
 import 'package:for_presentation/Page/FirebaseMainPage.dart';
 
 void main() {
@@ -11,13 +12,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '도토리게임즈: 개발기획서',
+      title: '잇당: 성장전략 조사 페이지',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
       home: const Scaffold(
-        body: FirebaseMainPage(),
+        body: ContentWidget(),
       ),
     );
   }
